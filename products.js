@@ -11,7 +11,7 @@ const products = [
         name: "aula f75 mechanical keyboard",
         price: 1499,
         image: "keys.jpg",
-        description: "AULA F75 75% Wireless Mechanical Keyboard,2.4Ghz/Type-C/BT5.0 Gaming Keyboards,Advanced Structure,RGB Backlight,Hot Swappable Custom Keyboard for PC/Mac (Cool Black)."
+        description: "AULA F75 75% Wireless Mechanical Keyboards,2.4Ghz/Type-C/BT5.0 Gaming Keyboards,Advanced Structure,RGB Backlight,Hot Swappable Custom Keyboard for PC/Mac (Cool Black)."
     },
     {
         id: 3,
