@@ -23,31 +23,25 @@ document.addEventListener("DOMContentLoaded", function () {
     // ADD TO CART
     // ==========================
 
-    const buttons = document.querySelectorAll(".card button");
+    // ==========================
+// BUY NOW BUTTON
+// ==========================
 
-    buttons.forEach(function (button) {
+const buyButtons = document.querySelectorAll(".buy-btn");
 
-        button.addEventListener("click", function () {
+buyButtons.forEach(function(button){
 
-            const card = button.parentElement;
+    button.addEventListener("click", function(e){
 
-            const productName = card.querySelector("h3").textContent;
-            const productPrice = card.querySelector(".price").textContent;
+        e.stopPropagation();
 
-            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        const id = this.dataset.id;
 
-            cart.push({
-                name: productName,
-                price: productPrice
-            });
-
-            localStorage.setItem("cart", JSON.stringify(cart));
-
-            alert(productName + " added to cart!");
-
-        });
+        window.location.href = "product.html?id=" + id;
 
     });
+
+});
 
     // ==========================
     // SEARCH
