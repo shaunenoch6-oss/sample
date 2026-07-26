@@ -11,7 +11,7 @@ payment.addEventListener("change", function () {
         gcashInfo.style.display = "block";
     }
 
-    if (payment.value === "maya") {
+    if (payment.value === "paymaya") {
         mayaInfo.style.display = "block";
     }
 
