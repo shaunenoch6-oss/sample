@@ -1,30 +1,42 @@
 const products = [
     {
         id: 1,
-        name: "Logitech G502 Hero Gaming Mouse",
-        price: 2500,
-        image: "mouse.jpg",
-        description: "Dominate the competition with the reborn Logitech G502 HERO. Its advanced HERO 16K sensor delivers our most accurate, competition-level precision with zero smoothing and a range of 100 to 16.000 DPI. Customize your arsenal with 11 programmable buttons and fine-tune the mouse’s feel and glide with five adjustable 3.6g weights. Immerse yourself in over 16 million colors with LIGHTSYNC RGB that syncs with your gameplay. Built with durable mechanical switches and rubberized grips, this is high-performance gaming, personalized for victory."
+        name: "Tomatoes",
+        price: 70 ,
+        unit: "kg",
+        image: "tomato.jpg",
+        description: "fresh and juicy tomatoes, perfect for salads, sauces, and cooking. Packed with vitamins and antioxidants, they are a healthy addition to any meal."
     },
     {
         id: 2,
-        name: "aula f75 mechanical keyboard",
-        price: 1499,
-        image: "keys.jpg",
-        description: "AULA F75 75% Wireless Mechanical Keyboards,2.4Ghz/Type-C/BT5.0 Gaming Keyboards,Advanced Structure,RGB Backlight,Hot Swappable Custom Keyboard for PC/Mac (Cool Black)."
+        name: "Eggplant",
+        price: 80 ,
+         unit: "kg",
+        image: "eggplant.jpg",
+        description: "Eggplants are a versatile vegetable that can be grilled, roasted, or sautéed. They are rich in fiber and antioxidants, making them a nutritious choice for your diet."
     },
     {
         id: 3,
-        name: "Redragon H510 Zeus Wired Gaming Headset",
-        price: 3994,
-        image: "audio.jpg",
-        description: "RGB WIRED GAMING HEADSET Enjoy the real clear and lossless sound quality with 7.1 Surround-Sound technology, creating a field of immersion wherever in-game field, listening to an alive concert, or in a chat room."
+        name: "Carrots",
+        price: 120 ,
+         unit: "kg",
+        image: "carrots.jpg",
+        description: "Carrots are a nutritious root vegetable, rich in beta-carotene and fiber. They are perfect for snacking, roasting, or adding to soups and stews."
     },
     {
         id: 4,
-        name: "Gaming Chair",
-        price: 10312,
-        image: "chair.jpg",
-        description: "The GTRACING GTWD-200 Ergonomic Gaming Chair with Adjustable Pillows and Footrest is the ultimate choice for gamers, professionals, and students seeking unparalleled comfort and style. This home and office gaming chair is meticulously designed with the user in mind, offering a blend of modern aesthetics and ergonomic support. The GTRACING GTWD-200 features adjustable pillows and an upholstered cushion, providing superior comfort for the cervical and lumbar spine."
-    }
+        name: "Bitter Gourd",
+        price: 100 ,
+         unit: "kg",
+        image: "bittergourd.jpg",
+        description: "Bitter gourd is a unique vegetable with a distinct bitter taste. It is commonly used in stir-fries, curries, and soups, and is known for its potential health benefits."
+    },
+    {
+        id: 5,
+        name: "Bok Choy (Pechay)",
+        price: 40 ,
+         unit: "kg",
+        image: "bok choy.jpg",
+        description: "Bok choy is a popular leafy green vegetable in Asian cuisine. It has a mild, slightly sweet flavor and is often used in stir-fries, soups, and salads."
+    },
 ];

@@ -12,7 +12,7 @@
 }
 
 body{
-    background:#f5f5f5;
+    background:#F1F8E9;
     color:#333;
 }
 
@@ -35,7 +35,7 @@ button{
 =========================== */
 
 header{
-    background:#ee4d2d;
+    background:#2E7D32;
     padding:15px 5%;
     display:flex;
     justify-content:space-between;
@@ -52,6 +52,11 @@ header{
     color:white;
     font-size:28px;
     font-weight:700;
+}
+
+.logo img {
+    width: 40px;   /* Adjust this value */
+    height: 40px;
 }
 
 .search{
@@ -72,7 +77,7 @@ header{
 .search button{
     width:60px;
     border:none;
-    background:#ff7337;
+    background:#66BB6A;
     color:white;
     font-size:18px;
 }
@@ -107,7 +112,7 @@ nav a{
 }
 
 nav a:hover{
-    color:#ee4d2d;
+    color:#2E7D32;
 }
 
 /* ===========================
@@ -116,7 +121,7 @@ nav a:hover{
 
 .hero{
     height:450px;
-    background:linear-gradient(135deg,#ff6d3f,#ff9966);
+    background:linear-gradient(135deg,#66BB6A,#A5D6A7);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -135,7 +140,7 @@ nav a:hover{
 
 .hero button{
     background:white;
-    color:#ee4d2d;
+    color:#A5D6A7;
     border:none;
     padding:15px 35px;
     border-radius:50px;
@@ -222,7 +227,7 @@ section h2{
 
 .price{
     padding:0 15px;
-    color:#ee4d2d;
+    color:#2E7D32;
     font-size:22px;
     font-weight:bold;
 }
@@ -232,13 +237,13 @@ section h2{
     width:calc(100% - 30px);
     padding:12px;
     border:none;
-    background:#ee4d2d;
+    background:#2E7D32;
     color:white;
     border-radius:5px;
 }
 
 .card button:hover{
-    background:#d83d1d;
+    background:#A5D6A7;
 }
 
 /* ===========================
@@ -332,7 +337,7 @@ nav{
 }
 
 .product-info .price{
-    color:#ee4d2d;
+    color:#2E7D32;
     font-size:40px;
     margin-bottom:20px;
 }
@@ -353,7 +358,7 @@ nav{
     width:45px;
     height:45px;
     border:none;
-    background:#ee4d2d;
+    background:#2E7D32;
     color:white;
     font-size:20px;
     border-radius:5px;
@@ -377,7 +382,7 @@ nav{
 }
 
 .buy-btn{
-    background:#ee4d2d;
+    background:#2E7D32;
     color:white;
 }
 
@@ -387,11 +392,11 @@ nav{
 }
 
 .buy-btn:hover{
-    background:#d84315;
+    background:#66BB6A;
 }
 
 .cart-btn:hover{
-    background:#f4a300;
+    background:#A5D6A7;
 }
 
 /* ===========================
@@ -422,7 +427,7 @@ nav{
 }
 
 .remove-btn{
-    background:#e53935;
+    background:#66BB6A;
     color:white;
     border:none;
     padding:10px 20px;
@@ -431,7 +436,7 @@ nav{
 }
 
 .remove-btn:hover{
-    background:#c62828;
+    background:#66BB6A;
 }
 
 .cart-total{
@@ -440,7 +445,7 @@ nav{
 }
 
 .cart-total button{
-    background:#ee4d2d;
+    background:#2E7D32;
     color:white;
     border:none;
     padding:15px 30px;
@@ -450,7 +455,7 @@ nav{
 }
 
 .cart-total button:hover{
-    background:#d84315;
+    background:#66BB6A;
 }
 /* ===========================
    CHECKOUT
@@ -490,7 +495,7 @@ nav{
 }
 
 .checkout button{
-    background:#ee4d2d;
+    background:#2E7D32;
     color:white;
     border:none;
     padding:15px;
@@ -499,5 +504,56 @@ nav{
 }
 
 .checkout button:hover{
-    background:#d84315;
+    background:#66BB6A;
+}.popup{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.6);
+    justify-content:center;
+    align-items:center;
+    z-index:1000;
+}
+
+.popup-content{
+    background:#fff;
+    width:380px;
+    padding:35px;
+    border-radius:15px;
+    text-align:center;
+    animation:popup .3s ease;
+}
+
+.popup-content i{
+    font-size:60px;
+    color:#2e7d32;
+    margin-bottom:15px;
+}
+
+.popup-content h2{
+    color:#2e7d32;
+}
+
+.popup-content button{
+    margin-top:20px;
+    background:#2e7d32;
+    color:#fff;
+    border:none;
+    padding:12px 30px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+@keyframes popup{
+    from{
+        transform:scale(.8);
+        opacity:0;
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
 }
