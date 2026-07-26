@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout - ShopEase</title>
+    <title>Checkout - FARMLINK+</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -15,8 +15,8 @@
 <header>
 
     <div class="logo">
-        <i class="fa-solid fa-store"></i>
-        <span>ShopEase</span>
+        <img src="FARMLINK+.png" alt="FARMLINK+ Logo">
+        <span>FARMLINK+</span>
     </div>
 
 </header>
@@ -27,16 +27,70 @@
 
     <form id="checkoutForm">
 
-        <input type="text" placeholder="Full Name" required>
+       <input
+    type="text"
+    id="fullname"
+    placeholder="Full Name"
+    required
+>
 
-        <input type="text" placeholder="Phone Number" required>
+<input
+    type="tel"
+    id="phone"
+    placeholder="09XXXXXXXXX"
+    pattern="[0-9]{11}"
+    maxlength="11"
+    required
+>
 
-        <textarea placeholder="Delivery Address" required></textarea>
+<textarea
+    id="address"
+    placeholder="Delivery Address"
+    required
+></textarea>
+
+        <select id="payment" required>
+    <option value="">Select payment method</option>
+    <option value="cod">Cash on Delivery</option>
+    <option value="gcash">GCash</option>
+    <option value="paymaya">Paymaya</option>
+</select>
+
+        <div id="gcashInfo" style="display:none; margin-top:15px;">
+
+    <h3>GCash Payment</h3>
+
+    <p><strong>GCash Number:</strong> 09XX-XXX-XXXX</p>
+    <p><strong>Account Name:</strong> FARMLINK+</p>
+
+    <label>Reference Number</label>
+    <input
+        type="text"
+        id="gcashRef"
+        placeholder="Enter GCash Reference Number"
+    >
+    
+</div>
+
+<div id="paymayaInfo" style="display:none; margin-top:15px;">
+    <h3>Maya Payment</h3>
+    <p><strong>Maya Number:</strong> 09XX-XXX-XXXX</p>
+    <p><strong>Account Name:</strong> FARMLINK+</p>
+
+    <label>Maya Reference Number</label>
+    <input
+        type="text"
+        id="paymayaRef"
+        placeholder="Enter paymaya Reference Number"
+    >
+</div>
+
 
         <select required>
-            <option>Cash on Delivery</option>
-            <option>GCash</option>
-            <option>Credit Card</option>
+            <option>type of delivery</option>
+            <option>Pick up at Store</option>
+            <option>Delivery</option>
+            <option>Drop & go</option>
         </select>
 
         <button type="submit">
@@ -48,6 +102,15 @@
 </section>
 
 <script src="checkout.js"></script>
+
+<div id="successPopup" class="popup">
+    <div class="popup-content">
+        <i class="fa-solid fa-circle-check"></i>
+        <h2>Order Placed!</h2>
+        <p>Thank you for shopping with FARMLINK+.</p>
+        <button id="continueBtn">Continue Shopping</button>
+    </div>
+</div>
 
 </body>
 </html>
