@@ -9,7 +9,8 @@ console.log("Product =", product);
 
 document.getElementById("productImage").src = product.image;
 document.getElementById("productName").textContent = product.name;
-document.getElementById("productPrice").textContent = "₱" + product.price;
+document.getElementById("productPrice").textContent =
+    "₱" + product.price + product.unit;
 document.getElementById("productDescription").textContent = product.description;
 
 const qty = document.getElementById("qty");
