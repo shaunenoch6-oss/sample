@@ -124,7 +124,7 @@ const products = [
         name: "Calamansi",
         price: 55 ,
          unit: "/kg",
-        image: "Calamansi.jpg",
+        image: "calamansi.jpg",
         description: "Calamansi is a citrus fruit, rich in vitamin C and fiber. It is perfect for snacking, juicing, or adding to salads."
     },
     {
