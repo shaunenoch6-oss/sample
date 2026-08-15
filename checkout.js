@@ -34,9 +34,9 @@ document.getElementById("checkoutForm").addEventListener("submit", function (e) 
         return;
     }
 
-} else if (payment.value === "maya") {
+} else if (payment.value === "paymaya") {
 
-    const ref = document.getElementById("mayaRef").value.trim();
+    const ref = document.getElementById("paymayaRef").value.trim();
 
     if (ref === "") {
         alert("Please enter your Maya Reference Number.");

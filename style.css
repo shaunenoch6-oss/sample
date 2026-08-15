@@ -198,10 +198,10 @@ section h2{
    PRODUCTS
 =========================== */
 
-.product-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-    gap:25px;
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
 }
 
 .card{

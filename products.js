@@ -2,7 +2,7 @@ const products = [
     {
         id: 1,
         name: "Tomatoes",
-        price: 70 ,
+        price: 65 ,
         unit: "/kg",
         image: "tomato.jpg",
         description: "fresh and juicy tomatoes, perfect for salads, sauces, and cooking. Packed with vitamins and antioxidants, they are a healthy addition to any meal."
@@ -41,11 +41,11 @@ const products = [
     },
     {
         id: 6,
-        name: "Avocados",
-        price: 180 ,
+        name: "Corn",
+        price: 20 ,
          unit: "/kg",
-        image: "avocado.jpg",
-        description: "Avocados are a nutritious fruit, rich in healthy fats and fiber. They are perfect for salads, sandwiches, and guacamole."
+        image: "corn.jpg",
+        description: "Corn is a versatile grain, rich in fiber and essential nutrients. It is perfect for grilling, boiling, or adding to salads and soups."
     },
     {
         id: 7,
@@ -66,8 +66,8 @@ const products = [
     {
         id: 9,
         name: "Oranges",
-        price: 100 ,
-         unit: "/kg",
+        price: 20 ,
+         unit: "/piece",
         image: "orange.jpg",
         description: "Oranges are a citrus fruit, rich in vitamin C and fiber. They are perfect for snacking, juicing, or adding to salads."
     },
@@ -78,5 +78,45 @@ const products = [
          unit: "/piece",
         image: "pinya.jpg",
         description: "Pinya is a tropical fruit, known for its sweet and juicy flesh. It is perfect for eating fresh, making smoothies, or adding to desserts."
+    },
+    {
+        id: 11,
+        name: "String beans",
+        price: 30 ,
+         unit: "/bundle",
+        image: "stringbeans.jpg",
+        description: "String beans are a nutritious vegetable, rich in vitamin C and fiber. They are perfect for stir-frying, roasting, or adding to soups and stews."
+    },
+    {
+        id: 12,
+        name: "Water spinach",
+        price: 15 ,
+         unit: "/bundle",
+        image: "waterspinach.jpg",
+        description: "Water spinach is a nutritious leafy green vegetable, rich in vitamins and minerals. It is perfect for stir-frying, boiling, or adding to soups and stews."
+    },
+    {
+        id: 13,
+        name: "Finger peppers",
+        price: 80 ,
+         unit: "/kg",
+        image: "fingerpeppers.jpeg",
+        description: "Finger peppers are a spicy vegetable, commonly used in salsas, stir-fries, and salads."
+    },
+    {
+        id: 14,
+        name: "Lady finger",
+        price: 45 ,
+         unit: "/kg",
+        image: "ladyfinger.jpg",
+        description: "Lady finger is a tropical fruit, known for its sweet and juicy flesh. It is perfect for eating fresh, making smoothies, or adding to desserts."
+    },
+    {
+        id: 15,
+        name: "Squash",
+        price: 30 ,
+         unit: "/kg",
+        image: "squash.jpg",
+        description: "Squash is a versatile vegetable, rich in vitamins and minerals. It is perfect for roasting, steaming, or adding to soups and stews."
     },
 ];
