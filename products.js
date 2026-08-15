@@ -119,4 +119,36 @@ const products = [
         image: "squash.jpg",
         description: "Squash is a versatile vegetable, rich in vitamins and minerals. It is perfect for roasting, steaming, or adding to soups and stews."
     },
+    {
+        id: 16,
+        name: "Calamansi",
+        price: 55 ,
+         unit: "/kg",
+        image: "calamansi.jpg",
+        description: "Calamansi is a citrus fruit, rich in vitamin C and fiber. It is perfect for snacking, juicing, or adding to salads."
+    },
+    {
+        id: 17,
+        name: "Guapple",
+        price: 45 ,
+         unit: "/kg",
+        image: "guapple.jpg",
+        description: "Guapple is a hybrid fruit, combining the sweetness of a guava with the tartness of an apple. It is perfect for eating fresh, making juices, or adding to desserts."
+    },
+    {
+        id: 18,
+        name: "Red Onion(Pulang sibuyas)",
+        price: 80 ,
+         unit: "/kg",
+        image: "onion.jpg",
+        description: "Red onion is a flavorful vegetable, commonly used in salads, salsas, and as a garnish for various dishes."
+    },
+    {
+        id: 19,
+        name: "Potato(Patatas)",
+        price: 60 ,
+         unit: "/kg",
+        image: "patatas.jpg",
+        description: "Potato is a versatile root vegetable, rich in carbohydrates and fiber. It is perfect for boiling, frying, or adding to soups and stews."
+    },
 ];
